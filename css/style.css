@@ -72,23 +72,27 @@ h6 {
 }
 
 body {
-	font-family: Jost, Verdana, sans-serif;
+	font-family: Roboto;
+	background-image: url("/images/123.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
+
 .container {
-	max-width: 1200px;
+	max-width: 768px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
 
 .title {
-	padding: 20px 0;
-	font-size: 20px;
+	padding: 40px 0;
+	font-size: 30px;
 	font-weight: 700;
 }
 
 .description {
-	color: #f57600;
+
 	font-size: 20px;
 	line-height: 1.2em;
 	padding-bottom: 30px;
@@ -100,4 +104,6 @@ body {
 	margin-bottom: 30px;
 }
 
-.cta {}
+.cta {
+	font-size: 20px;
+}
