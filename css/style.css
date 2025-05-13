@@ -85,15 +85,17 @@ body {
 }
 
 .title {
-	padding: 40px 0;
-	font-size: 30px;
+	padding: 30px 0;
+	font-size: 17px;
 	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 
 .description {
 
-	font-size: 20px;
-	line-height: 1.2em;
+	font-size: 18px;
+	line-height: 1.4em;
 	padding-bottom: 30px;
 }
 
@@ -104,5 +106,6 @@ body {
 }
 
 .cta {
-	font-size: 20px;
+	font-size: 18px;
+	line-height: 1.4em;
 }
